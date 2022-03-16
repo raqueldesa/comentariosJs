@@ -1,0 +1,89 @@
+.div_comentario{
+    background-color: black;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    display:flex;
+    padding:20px;
+}
+.secao_input{
+    display:flex;
+    flex-direction: column;
+}
+
+#input_nome,#input_nickname{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #5A5858;
+    margin:  0 0  0 170px;
+    width: 85%;
+}
+#input_nome{
+    margin-top: 20px;
+    height: 8vh;
+}
+#input_nickname{
+    margin-top:10px;
+    height: 4vh;
+}
+
+.secao_foto{
+    position:absolute;
+    
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#input_comentario{
+    margin-top:50px;
+    margin-left:25px;
+    width:130%;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #5A5858;
+}
+span{
+    color:blue;
+}
+#btn_enviar{
+    width:10%;
+    height:5vh;
+    margin-left:300px;
+}
+.div_comentado{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    padding:20px;
+}
+
+.txt_nome,.txt_nickname{
+    margin:  0 0  0 170px;
+    width: 85%;
+    color:white;
+}
+.txt_comentario{
+    margin-top:50px;
+    margin-left:25px;
+    
+    width:90%;
+    color:white;
+}
+.img_comentario{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 25px;
+}
